@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "ine": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/es-ine/mcp.git@8f34023116d2d7f95b2535d649c82238b56459fc",
+        "ine-mcp"
+      ]
+    }
+  }
+}

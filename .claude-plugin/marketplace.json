@@ -1,0 +1,14 @@
+{
+  "name": "jacagi-ine",
+  "description": "Unofficial plugin marketplace for Spain's INE official-statistics MCP server.",
+  "owner": {
+    "name": "jacagi"
+  },
+  "plugins": [
+    {
+      "name": "ine-estadistica",
+      "source": "./",
+      "description": "Unofficial plugin bundling the INE's open-source MCP server for Spanish official statistics."
+    }
+  ]
+}

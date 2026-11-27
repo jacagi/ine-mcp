@@ -1,0 +1,25 @@
+{
+  "name": "ine-estadistica",
+  "version": "0.1.0",
+  "description": "Unofficial community plugin that bundles the INE (Instituto Nacional de Estadística, Spain) open-source MCP server, giving Claude read-only access to official Spanish statistics through the INE public API. Not affiliated with or endorsed by the INE.",
+  "author": {
+    "name": "jacagi"
+  },
+  "homepage": "https://github.com/jacagi/ine-mcp",
+  "repository": "https://github.com/jacagi/ine-mcp",
+  "license": "EUPL-1.2",
+  "keywords": [
+    "mcp",
+    "ine",
+    "spain",
+    "statistics",
+    "open-data"
+  ],
+  "network": {
+    "hosts": [
+      "servicios.ine.es",
+      "www.ine.es",
+      "github.com"
+    ]
+  }
+}
