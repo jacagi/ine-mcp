@@ -14,12 +14,5 @@
     "spain",
     "statistics",
     "open-data"
-  ],
-  "network": {
-    "hosts": [
-      "servicios.ine.es",
-      "www.ine.es",
-      "github.com"
-    ]
-  }
+  ]
 }

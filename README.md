@@ -34,7 +34,7 @@ It installs from git on purpose: the `ine-mcp` name on PyPI belongs to an unrela
 ## What this plugin runs, sends and stores
 
 - **Runs:** one local MCP server over stdio, started with `uvx` from the INE's public repository
-  `github.com/es-ine/mcp`, pinned to commit `8f34023116d2d7f95b2535d649c82238b56459fc`.
+  `github.com/es-ine/mcp`, pinned to commit `325742ed0222d306e0094b077d034f1fec375a4d`.
   The plugin contains no code of its own besides this configuration.
 - **Fetches on first start:** the server's source from github.com and its Python dependencies
   from PyPI (via uv). They are cached locally by uv.

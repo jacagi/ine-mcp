@@ -4,7 +4,7 @@
       "command": "uvx",
       "args": [
         "--from",
-        "git+https://github.com/es-ine/mcp.git@8f34023116d2d7f95b2535d649c82238b56459fc",
+        "git+https://github.com/es-ine/mcp.git@325742ed0222d306e0094b077d034f1fec375a4d",
         "ine-mcp"
       ]
     }
