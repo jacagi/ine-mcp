@@ -31,6 +31,19 @@ The plugin runs the upstream server locally over stdio with
 `uvx --from git+https://github.com/es-ine/mcp.git@<pinned commit> ine-mcp`.
 It installs from git on purpose: the `ine-mcp` name on PyPI belongs to an unrelated project.
 
+## What this plugin runs, sends and stores
+
+- **Runs:** one local MCP server over stdio, started with `uvx` from the INE's public repository
+  `github.com/es-ine/mcp`, pinned to commit `8f34023116d2d7f95b2535d649c82238b56459fc`.
+  The plugin contains no code of its own besides this configuration.
+- **Fetches on first start:** the server's source from github.com and its Python dependencies
+  from PyPI (via uv). They are cached locally by uv.
+- **Sends:** only the statistical queries Claude builds (operation, table and variable IDs,
+  periods, search terms) to the INE public API at `servicios.ine.es` / `www.ine.es`.
+  No API keys, credentials or personal data are needed or sent.
+- **Stores:** nothing. The tools are read-only and the plugin keeps no data of its own.
+- **Does not:** use hooks, change Claude settings or permissions, or contact any other service.
+
 ## Tools
 
 The upstream server exposes five read-only tools, called in order:
